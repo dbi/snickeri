@@ -10,7 +10,7 @@ get '/crop' do
     require "devil"
     erb :crop
   rescue LoadError => err
-    redirect '/'
+    not_found
   end
 end
 
@@ -36,6 +36,8 @@ post '/crop' do
 
     if params[:y] != ""
       ::Devil.with_image("public/crop/image.jpg") do |img|
+        # TODO: thumbnail should be based on original picture
+        
         w = params[:w].to_i
         h = params[:h].to_i
         x = params[:x].to_i
