@@ -38,13 +38,12 @@ h4 {
 }
 .tagline {
   color:#4f4f4f;
-  font-size:1.7em;
+  font-size:1.8em;
   margin-top: 60px;
   margin-right: 30px;
 }
 .tagline span {
   display:block;
-  font-size: 1.1em;
 }
 #header {
   margin: 20px;
