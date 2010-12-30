@@ -64,8 +64,8 @@ h4 {
   -o-box-shadow: 0 1px 10px #603D15;
   -webkit-box-shadow: 0 1px 10px #603D15;
   background: #333;
-  background: url(dark-top.png) top left repeat-x, url(dark.png) bottom left repeat;
   background: url(dark.png) bottom left repeat;
+  background: url(dark-top.png) top left repeat-x, url(dark.png) bottom left repeat;
   border-bottom: 1px solid #353a3b;
   border-top: 1px solid #353a3b;
   box-shadow: 0 1px 10px #603D15;
@@ -82,7 +82,7 @@ h4 {
 #samples li {
   display:block;
   float:left;
-  height:200px;
+  height:210px;
   list-style:none;
   margin: 0 0 0 60px;
   padding:0;
