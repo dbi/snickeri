@@ -29,6 +29,9 @@ h4 {
   font-weight:normal;
   margin: 20px 60px 20px;
 }
+.logo img {
+  margin-left: 140px;
+}
 .section {
   width: 740px;
   margin: 20px auto;
